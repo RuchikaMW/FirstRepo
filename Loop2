@@ -1,0 +1,39 @@
+//break statmentwith forloop
+
+/* for(let i=1; i<=10;i++){
+    console.log(i)
+    if (i==5){
+        break
+    }
+} */
+//o/p 1 2 3 4 5
+
+
+for(let i=1; i<=10; i++){
+    if(i==3){   //while come 3 loop will break
+        break
+    }
+    console.log(i)
+} 
+
+//reverse number
+/* for(let i=50; i>=1; i--){
+console.log(i)
+} //print 50....5 */
+
+//continue
+
+for(let i=1;i<=5;i++){
+    if(i===4){
+        continue  //continue use for skip value then loop continue
+    }
+console.log(i) //o/p 1 2 3 5
+    
+}
+
+for(let i=5;i>=1;i--){
+    if(i==2){
+        continue
+    }
+    console.log(i)
+}//o/p 5 4 3 1
