@@ -19,6 +19,6 @@ console.log(fruits[fruits.length-1])
 // push()
 
 let vegetables = ["potato","brinjal","cabbage"]
-let a1 = vegetables.push("carrot")
-console.log(vegetables)
+let a1 = vegetables.push("carrot") // [ 'potato', 'brinjal', 'cabbage', 'carrot' ]
+console.log(vegetables) // 4    
 console.log(a1)

@@ -7,7 +7,7 @@ console.log(typeof firstname)
 let lastname= "kukde"
 console.log(typeof lastname)
 
-let middlenam= `Ramesh`
+let middlenam= `Ramesh`  //backtise
 console.log(typeof middlenam)
 
 // does string stores the value by index ?
